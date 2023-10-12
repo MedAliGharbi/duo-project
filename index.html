@@ -11,7 +11,7 @@
 <body>
     <ul>
         <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#prodact">Prodact</a></li>
+        <li><a href="prodact.html">Prodact</a></li>
         <li style="float:right"><a href="#contact">Contact</a></li>
 
     </ul>
@@ -22,25 +22,28 @@
     <br>
     <br>
     <div class="div1">
-        <div class="card">
-            <img src="img/rob1.jpg" style="width:65%">
+        <div class="card" onmouseover="change1('img1',im1)" onmouseout="change2('img1',im1)">
+            <img src="img/rob3.jpg" id="img1" style="width:200px;height: 250px;">
 
             <p class="price">remise 15%</p>
         </div>
-        <div class="card">
-            <img src="img/rob_2.jpg" style="width:65%">
+        <div class="card" onmouseover="change1('img2',im3)" onmouseout="change2('img2',im3)">
+            <img src="img/rob5.jpg" id="img2" style="width:200px;height: 250px;">
 
             <p class="price">remise 50%</p>
 
         </div>
-        <div class="card">
-            <img src="img/image30.jpg" style="width:85%">
-            <p class="price">remise 20%</p>
+        <div class="card" onmouseover="change1('img3',im9)" onmouseout="change2('img3',im9)">
+            <img src="img/cos1.jpg" id="img3" style="width:200px;height: 250px;">
+
+            <p class="price">remise 15%</p>
         </div>
-        <div class="card">
-            <img src="img/image34.jpg" style="width:85%">
-            <p class="price">remise 60%</p>
+        <div class="card" onmouseover="change1('img4',im10)" onmouseout="change2('img4',im10)">
+            <img src="img/cos2.jpg" id="img4" style="width:200px;height: 250px;">
+
+            <p class="price">remise 15%</p>
         </div>
+        <script src="index.js"></script>
 </body>
 
 </html>
