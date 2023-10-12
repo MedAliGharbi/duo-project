@@ -54,7 +54,7 @@ li:last-child {
     outline: 0;
     padding: 2px;
     color: white;
-    background-color: #000;
+    background-color: #000000;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -67,11 +67,8 @@ li:last-child {
 
 .div1 {
     display: flex;
-    /* establish flex container */
     flex-direction: row;
-    /* default value; can be omitted */
     flex-wrap: nowrap;
-    /* default value; can be omitted */
     justify-content: space-between
 }
 
@@ -81,4 +78,8 @@ div :hover {
 
 .price:hover {
     background-color: rgb(212, 156, 178);
+}
+
+h1 {
+    color: #02f48b;
 }
